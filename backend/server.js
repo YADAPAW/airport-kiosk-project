@@ -101,7 +101,7 @@ app.post('/api/chat', async (req, res) => {
       context = "ไม่มีข้อมูลร้านนี้ในระบบ";
     }
 
-    // 2. ปรับ Prompt ให้ AI ทำงานร่วมกับ Context
+
     const systemInstruction = `คุณคือ 'น้องใส่ใจ' พนักงาน AI ประชาสัมพันธ์สนามบินดอนเมือง Terminal 2
 
 ข้อมูลอ้างอิงจริง: 
